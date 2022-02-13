@@ -1,0 +1,151 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;  
+}
+
+header{
+width: 100%;
+height: 80px;
+background-color: #C5558E;
+
+} 
+
+.nav{
+width: 100%;
+padding:20px;
+text-align: right;
+position: fixed;
+top: 0px;
+}
+
+.nav ul li{  
+list-style: none;
+display: inline-block;
+padding: 10px 50px;
+color: white;
+font-size:20px;
+font-family:sans-serif;
+cursor: pointer;
+	}
+
+	.nav ul li a{ 
+text-decoration: none;
+color: white;
+	}
+
+.nomb_logo{
+width: 330px;
+padding: 0px 20px;
+float: left;
+position: relative;
+top: 5%;
+left: 2%;
+color: #fff;
+font-size: 30px;
+	}
+
+.logo_img {
+width: 80px;
+position: absolute;
+transform: translateX(-1450%) translateY(-25%);
+
+	}
+
+.contenedor{
+	color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+padding: 90px 70px;
+border: solid;
+background-color:#AE58AF;
+	}
+
+	.titulo_cont{
+font-size:40px;
+text-align: center;
+padding: 20px 10px;
+	}
+
+	.parrafo_cont{
+font-size:20px;
+text-align: justify;
+	}
+
+
+
+.foot {
+background-color: #A42153;
+margin-top:53%;
+width: 100%;
+padding: 20px 100px;
+position: relative;
+}
+
+.foot_2{
+background-color: #A42153;
+margin-top: 16%;
+width: 100%;
+padding: 20px 100px;
+position: relative;
+}
+
+.foot_p{  
+color: #EFCB67;
+text-align: center;
+	}
+
+.marca {
+	background-color:#A42153;
+}
+
+.imagen_fondo{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.formulario_ing{  
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 150px;
+	padding: 20px;
+	box-shadow: 0 0 20px 1px color #000;
+	position: relative;
+	background: #C5558E;
+}
+
+.info_h2{
+	text-align: center;
+	margin-top: 0;
+	color: #fff;
+	font-family: sans-serif;
+
+}
+
+.formula, .enviar{
+	display: block;
+	padding: 20px;
+	width: 100%;
+	margin: 30px 0px;
+	font-size: 20px;
+	border: none;
+}
+
+.enviar{
+	background:#A42153;
+	border: 0;
+	cursor: pointer;
+	border-radius: 30px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	transition: .8s ease-out;
+	color: #fff;
+}
